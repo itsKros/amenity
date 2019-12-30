@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root{
+    --primary: #79adf6;
+}
+.text-primary{color: var(--primary);}
