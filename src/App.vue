@@ -1,24 +1,29 @@
 <template>
   <div id="app">
     <Header></Header>
-    
+    <VuePannellum src="assets/panorama/Lounge-Panorama.jpg" class=""></VuePannellum>
     
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import VuePannellum from 'vue-pannellum'
 import './assets/css/main.css'
+import './assets/css/style.css'
+import './assets/js/script.js'
 export default {
   name: 'app',
   components: {
-    Header
-  }
+    Header,
+    VuePannellum
+  },
+  
 }
 </script>
 
-<style>
 
+<style>
 
 #app {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;

@@ -2,10 +2,12 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        'w-80': '80%'
+        'w-80': '80%',
       }
     }    
   },
-  variants: {},
+  variants: {
+    width: ['responsive'],
+  },
   plugins: []
 }
