@@ -4,7 +4,6 @@
 
 @tailwind utilities;
 
-:root{
-    --primary: #79adf6;
-}
+:root{ --primary: #79adf6;}
 .text-primary{color: var(--primary);}
+.bg-primary{background-color: var(--primary);}

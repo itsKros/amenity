@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gray-900 text-white flex flex-col md:flex-row justify-between px-4 py-2">
+    <header class="bg-gray-900 text-white flex flex-col md:flex-row justify-between px-4 py-2 relative">
         <div class="brand uppercase flex text-primary justify-center md:justify-start text-3xl md:text-xl tracking-widest">
             Explore Amenties
         </div>
@@ -95,6 +95,8 @@
             </slide>
         </carousel>
     </header>
+
+    
 </template>
 
 <script>
