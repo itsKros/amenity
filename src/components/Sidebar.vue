@@ -18,19 +18,15 @@
         <div class="detail shp absolute bg-white px-3 py-2 rounded-r-lg" v-if="isSmartHomePkg">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Available smart home packages make every part of your life easier.  Your smart apartment will save energy and lower your utilities bill, save time, and make your home more comfortable.  See a leasing associate for more information.
             </p>
-            <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
+            <img src="../assets/imgs/detail/shp.png" class="w-full" alt="">
         </div>
 
         <div class="detail ffa absolute bg-white px-3 py-2 rounded-r-lg" v-if="isFrndFmlyApt">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Enjoy the convenience of having guest stay at Vespaio when visiting.  The friends and family apartment is fully furnished with everything that your guest will need during their visit.  Fees apply, see a leasing associate for more information.
             </p>
             <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
         </div>
@@ -38,51 +34,41 @@
         <div class="detail dpl absolute bg-white px-3 py-2 rounded-r-lg" v-if="isDigiPkgLock">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Our digital lockers offer a convenient and secure way to receive or send all of your important packages.  Whether it is your Grubb Hub delivery or your latest online purchase, you will recieve a text when your package arrives.  
             </p>
-            <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
+            <img src="../assets/imgs/detail/dpl.png" class="w-full" alt="">
         </div>
 
         <div class="detail sba absolute bg-white px-3 py-2 rounded-r-lg" v-if="isSmartBuildAccess">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Built for modern living, Vespaio's smart building intercom provides a new standard in convenience and safety.  Use your smartphone to see who is at the building's front door, grant access anywhere, and issue virtual keys to your guest. 
             </p>
-            <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
+            <img src="../assets/imgs/detail/sba.png" class="w-full" alt="">
         </div>
 
         <div class="detail evc absolute bg-white px-3 py-2 rounded-r-lg" v-if="isEVCharging">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Charge your car right in your assigned parking spot using your charging card for exclusive access.  Use your mobile app to track charging sessions, pay for electricity and set reminders to plug in.  
             </p>
-            <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
+            <img src="../assets/imgs/detail/evc.png" class="w-full" alt="">
         </div>
 
         <div class="detail solAr absolute bg-white px-3 py-2 rounded-r-lg" v-if="isSolarArray">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Sustainable features have been woven throughout Vespaio as an integral part of its design.  Vespaio helps you leave a smaller footprint with its 98 KW solar array that powers the entire building common area.
             </p>
-            <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
+            <img src="../assets/imgs/detail/solAr.png" class="w-full" alt="">
         </div>
 
         <div class="detail dcs absolute bg-white px-3 py-2 rounded-r-lg" v-if="isDigiConServ">
             <span @click="hideDetails()" class="closeBtn cursor-pointer absolute bg-primary text-white rounded-full float-right text-xs flex justify-center items-center">X</span>
             <p class="pr-4 mb-2">
-                Weather you choose a car less lifestyle or your car is in  for service, 
-                the Vespaio community car is a great convenience.  
-                Just download the mobile app, create an account, click and drive.  Fees apply.
+                Sometimes you need a little help keeping up with everyday chores.  Does the dog need a walk?  Has your laundry been in the hamper for weeks?  Help is just a click away with the Vespaio digital concierge.  
             </p>
-            <img src="../assets/imgs/detail/cec.png" class="w-full" alt="">
+            <img src="../assets/imgs/detail/dcs.png" class="w-full" alt="">
         </div>
         
         <div class="list bg-white p-2 py-4 rounded-r-lg select-none" v-if="moreAmenityList">
