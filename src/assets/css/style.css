@@ -1,6 +1,4 @@
-#view{}
-
-
+.box-shadow {box-shadow: 2px 2px 12px rgba(0,0,0,0.1);}
 .VueCarousel-navigation-prev,
 .VueCarousel-navigation-next{padding: 0 !important;color:#fff !important; opacity: 1 !important;}
 .VueCarousel-navigation-prev {left:3px !important;}

@@ -3,7 +3,7 @@
         <div class="brand uppercase flex text-primary justify-center md:justify-start text-3xl md:text-xl tracking-widest">
             Explore Amenties
         </div>
-        <div class="amenties w-10/12 hidden md:flex justify-between item-center uppercase text-white overflow-x-scroll md:overflow-x-hidden">
+        <div class="amenties desktop w-10/12 hidden md:flex justify-between item-center uppercase text-white overflow-x-scroll md:overflow-x-hidden">
             <a href="#" class="w-1/2 md:w-auto flex justify-center items-center flex-row text-white selected">
                 <span class="circle rounded-full bg-white mr-1"></span> 
                 <span>Resident Lounge</span>
@@ -38,7 +38,7 @@
                 <span>Outdoor Kitchen</span>
             </a>
         </div>
-        <carousel class="block md:hidden" :navigationEnabled=true :paginationEnabled=false>
+        <carousel class="block mobile" :navigationEnabled=true :paginationEnabled=false>
             <slide>
                 <a href="#" class="flex justify-center items-center flex-row text-white selected">
                     <span class="circle rounded-full bg-white mr-1"></span> 
@@ -119,6 +119,12 @@ a.selected {color:var(--primary);}
 .circle{height:10px;width:10px;}
 a.selected .circle {background-color:var(--primary);}
 
+.mobile {display:none;}
+
+@media only screen and (max-width:767px){
+    .desktop {display:none;}
+    .mobile {display:flex;}
+}
 
 
 </style>
