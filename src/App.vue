@@ -5,7 +5,7 @@
     <Sidebar id="sidebar"></Sidebar>
     <div >
       <div v-show="this.activeView.pano">
-        <VuePannellum id="panorama" :src="activeView.link"  class="relative"></VuePannellum>
+        <VuePannellum id="panorama" :src="activeView.link"  :yaw="-90" :hfov="detectMobile() ? 55 : 200" class="relative"></VuePannellum>
       </div>
       <div v-show="!this.activeView.pano">
         <div id="panorama" class="bg-img" :style="{'background': 'url(' + activeView.link + ') center center no-repeat'}"></div>
@@ -61,7 +61,14 @@ export default {
       viewClickedHandler: function (e){
         this.activeView = e;
           console.log(e);
-      }  
+      },
+      detectMobile(){
+        if(window.innerWidth <= 800) {
+            return true;
+        } else {
+            return false;
+        } 
+      }
   },
   mounted () {
     this.$nextTick(() => {
@@ -70,6 +77,8 @@ export default {
         height: 'calc( 100vh - '+header+'px)'
       });
     });
+
+    
   }
   
 }

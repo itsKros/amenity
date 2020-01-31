@@ -156,12 +156,7 @@ export default {
         isSmartBuildAccess: false,
         isEVCharging: false,
         isSolarArray: false,
-        isDigiConServ: false,
-        amenities:[
-            {id:1, name: "Available Smart Home Packages", hasdesc:true, img:"../assets/imgs/detail/shp.png", desc: "Available smart home packages make every part of your life easier. Your smart apartment will save energy and lower your utilities bill, save time, and make your home more comfortable. See a leasing associate for more information."},
-            {id:2, name: "Friends & Family Apartment", hasdesc:true, img:"../assets/imgs/detail/ffa.png", desc: "Enjoy the convenience of having guest stay at Vespaio when visiting. The friends and family apartment is fully furnished with everything that your guest will need during their visit. Fees apply, see a leasing associate for more information."},
-            {id:3, name: "Outdoor Movie Theater", hasdesc:false, img:null, desc:null},
-        ]
+        isDigiConServ: false
     }
 },
   methods:{
@@ -256,7 +251,6 @@ export default {
     });
 
     this.checkMobile();
-    
   }
 }
 </script>
